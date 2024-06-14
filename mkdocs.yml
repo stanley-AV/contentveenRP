@@ -63,16 +63,3 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   
-  
-plugins:
-  - search
-
-copyright: |
-  &copy; 2024 <a href="rp"  target="_blank" rel="noopener">Contentveen</a>
-
-site_name: Contentveen
-theme: readthedocs
-repo_url: https://github.com/gebruikersnaam/stanley-AV
-
-plugins:
-    - search
