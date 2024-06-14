@@ -1,0 +1,78 @@
+# Project information
+site_name: Contentveen 
+# defeine TOC or order of website-
+
+nav:
+- APV.md
+- regels.md
+- Home.md
+- straffen.md
+
+
+site_author: Sunny Bhaveen Chandra
+site_description: >-
+  DESCRIPTION
+
+# Repository
+repo_name: Contentveen Roleply V2
+repo_url: https://github.com/c17hawke/REPO_NAME
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+  language: nl
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: red
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: red
+      accent: lime    
+  # logo: PyTorch_logo_icon.svg
+  
+extra:
+  social:
+    - icon: fontawesome/brands/tiktok
+      link: https://tiktok.com/c17hawke
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/UYbR6R4zt8
+
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  
+  
+plugins:
+  - search
+
+copyright: |
+  &copy; 2024 <a href="rp"  target="_blank" rel="noopener">Contentveen</a>
+
+site_name: Contentveen
+theme: readthedocs
+repo_url: https://github.com/gebruikersnaam/stanley-AV
+
+plugins:
+    - search
